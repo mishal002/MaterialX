@@ -7,6 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".form_final">
 
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -59,7 +63,7 @@
         </LinearLayout>
 
        <LinearLayout
-          android:background="#D4FFD5"
+          android:background="@color/color1"
           android:layout_width="match_parent"
           android:orientation="vertical"
           android:layout_height="wrap_content">
@@ -140,7 +144,7 @@
 
     </LinearLayout>
        <LinearLayout
-          android:background="#D4FFD5"
+          android:background="@color/color1"
           android:layout_width="match_parent"
           android:orientation="vertical"
           android:layout_height="match_parent">
@@ -160,12 +164,11 @@
           <TextView
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:text="Profile Information"
-              android:textSize="20dp"
               android:gravity="center"
-              android:textStyle="bold"
-              android:textColor="@color/color2">
-          </TextView>
+              android:text="Profile Information"
+              android:textColor="@color/color2"
+              android:textSize="20dp"
+              android:textStyle="bold"></TextView>
       </LinearLayout>
 
         <LinearLayout
@@ -256,5 +259,5 @@
     </LinearLayout>
 
     </LinearLayout>
-
+  </ScrollView>
 </LinearLayout>
